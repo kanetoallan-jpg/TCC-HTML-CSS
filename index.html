@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M&amp;A Softwares | Modelos de sites prontos</title>
+  <link rel="icon" href="img/logo M&A.jpeg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo">
+    <a href="index.html" class="logo"><img src="img/brasao.jpg" width="48" height="50" alt=""><span class="logo-nome">M&amp;A <small>Softwares</small></span></a>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-botao" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </label>
+
+    <nav class="menu">
+      <a href="index.html">Início</a>
+      <a href="index.html#catalogo">Catálogo</a>
+      <a href="index.html#planos">Planos</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. CARROSSEL ESPALHADO NA TELA -->
+    <section id="inicio" class="secao-carrossel-topo">
+      <div class="carrossel" aria-label="Galeria de modelos de sites">
+        <input type="radio" name="carrossel" id="slide1" checked aria-label="Modelo Petshop">
+        <input type="radio" name="carrossel" id="slide2" aria-label="Modelo Moda">
+        <input type="radio" name="carrossel" id="slide3" aria-label="Modelo Corporativo">
+        <input type="radio" name="carrossel" id="slide4" aria-label="Modelo Blog">
+        <div class="janela">
+          <div class="slides">
+            
+            <!-- Slide 1 -->
+            <figure class="slide">
+              <div class="slide-conteudo">
+                <h3>Modelo Petshop</h3>
+                <p>Agendamento online, vitrine de produtos e galeria de pets. A solução completa para clínicas e banho &amp; tosa alavancarem suas vendas.</p>
+                <div class="botoes">
+                  <a href="#catalogo" class="botao botao-claro-contorno">Ver Detalhes</a>
+                </div>
+              </div>
+
+              <label for="slide4" class="seta anterior" aria-label="Modelo anterior">&#8249;</label>
+              <label for="slide2" class="seta proxima" aria-label="Próximo modelo">&#8250;</label>
+            </figure>
+
+            <!-- Slide 2 -->
+            <figure class="slide">
+              <div class="slide-conteudo">
+                <h3>Modelo Moda</h3>
+                <p>Vitrine de coleções, página de produto completa e foco visual em fotos de alta qualidade. Desenvolvido sob medida para destacar seu catálogo.</p>
+                <div class="botoes">
+                  <a href="#catalogo" class="botao botao-claro-contorno">Ver Detalhes</a>
+                </div>
+              </div>
+
+              <label for="slide1" class="seta anterior" aria-label="Modelo anterior">&#8249;</label>
+              <label for="slide3" class="seta proxima" aria-label="Próximo modelo">&#8250;</label>
+            </figure>
+
+            <!-- Slide 3 -->
+            <figure class="slide">
+              <div class="slide-conteudo">
+                <h3>Modelo Corporativo</h3>
+                <p>Transmita credibilidade e autoridade no mercado. Estrutura profissional otimizada para atrair parceiros e novos contatos comerciais.</p>
+                <div class="botoes">
+                  <a href="#catalogo" class="botao botao-claro-contorno">Ver Detalhes</a>
+                </div>
+              </div>
+
+              <label for="slide2" class="seta anterior" aria-label="Modelo anterior">&#8249;</label>
+              <label for="slide4" class="seta proxima" aria-label="Próximo modelo">&#8250;</label>
+            </figure>
+
+            <!-- Slide 4 -->
+            <figure class="slide">
+              <div class="slide-conteudo">
+                <h3>Modelo Blog</h3>
+                <p>Layout limpo e focado na leitura, com publicação de artigos organizados por temas e otimização total para smartphones.</p>
+                <div class="botoes">
+                  <a href="#catalogo" class="botao botao-claro-contorno">Ver Detalhes</a>
+                </div>
+              </div>
+
+              <label for="slide3" class="seta anterior" aria-label="Modelo anterior">&#8249;</label>
+              <label for="slide1" class="seta proxima" aria-label="Próximo modelo">&#8250;</label>
+            </figure>
+
+          </div>
+        </div>
+        <div class="pontos">
+          <label for="slide1" aria-hidden="true"></label>
+          <label for="slide2" aria-hidden="true"></label>
+          <label for="slide3" aria-hidden="true"></label>
+          <label for="slide4" aria-hidden="true"></label>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. CATÁLOGO -->
+    <section id="catalogo" class="secao">
+      <h2>Catálogo</h2>
+      <p class="intro">Veja em detalhes nossos modelos de sites criados para cada segmento.</p>
+
+      <article class="item">
+        <img class="imagem" src="img/modelo-petshop.svg" width="640" height="440" alt="Modelo Petshop em notebook e celular">
+        <div class="item-info">
+          <h3>Modelo Petshop</h3>
+          <p>Site para pet shops, clínicas veterinárias e banho e tosa, com agendamento e vitrine de produtos.</p>
+          <ul>
+            <li>Página de serviços e preços</li>
+            <li>Galeria de pets</li>
+            <li>Botão de agendamento</li>
+          </ul>
+          <a href="contato.html" class="botao">Contrate</a>
+        </div>
+      </article>
+
+      <article class="item invertido">
+        <img class="imagem" src="img/modelo-moda.svg" width="640" height="440" alt="Modelo Moda em notebook e celular">
+        <div class="item-info">
+          <h3>Modelo Moda</h3>
+          <p>Loja virtual para roupas e acessórios, com vitrine de coleções e foco em boas fotos.</p>
+          <ul>
+            <li>Catálogo por coleção</li>
+            <li>Página de produto</li>
+            <li>Carrinho de compras</li>
+          </ul>
+          <a href="contato.html" class="botao">Contrate</a>
+        </div>
+      </article>
+
+      <article class="item">
+        <img class="imagem" src="img/modelo-corporativo.svg" width="640" height="440" alt="Modelo Corporativo em notebook e celular">
+        <div class="item-info">
+          <h3>Modelo Corporativo</h3>
+          <p>Site institucional para empresas que querem passar credibilidade e captar contatos.</p>
+          <ul>
+            <li>Apresentação da empresa</li>
+            <li>Área de serviços</li>
+            <li>Formulário de contato</li>
+          </ul>
+          <a href="contato.html" class="botao">Contrate</a>
+        </div>
+      </article>
+
+      <article class="item invertido">
+        <img class="imagem" src="img/modelo-blog.svg" width="640" height="440" alt="Modelo Blog em notebook e celular">
+        <div class="item-info">
+          <h3>Modelo Blog</h3>
+          <p>Modelo para quem quer publicar conteúdo, com leitura confortável e destaque para os artigos.</p>
+          <ul>
+            <li>Lista de publicações</li>
+            <li>Categorias</li>
+            <li>Página de artigo</li>
+          </ul>
+          <a href="contato.html" class="botao">Contrate</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- 3. PLANOS -->
+    <section id="planos" class="secao secao-clara">
+      <h2>Planos</h2>
+      <p class="intro">Escolha o pacote que cabe no seu negócio. Todos incluem o modelo de site responsivo.</p>
+      <div class="planos">
+        <article class="plano">
+          <h3>Básico</h3>
+          <p class="preco"><span>R$</span> 490</p>
+          <p class="plano-desc">Para quem quer começar com simplicidade.</p>
+          <ul>
+            <li>1 modelo do catálogo</li>
+            <li>Até 3 páginas</li>
+            <li>Troca de cores e logo</li>
+            <li>Suporte por e-mail</li>
+          </ul>
+          <a href="contato.html" class="botao botao-bloco">Quero este</a>
+        </article>
+
+        <article class="plano destaque">
+          <p class="selo">Mais escolhido</p>
+          <h3>Profissional</h3>
+          <p class="preco"><span>R$</span> 990</p>
+          <p class="plano-desc">Ideal para negócios que querem vender mais.</p>
+          <ul>
+            <li>1 modelo do catálogo</li>
+            <li>Até 8 páginas</li>
+            <li>Formulário e botão de WhatsApp</li>
+            <li>Ajustes de conteúdo</li>
+            <li>Suporte prioritário</li>
+          </ul>
+          <a href="contato.html" class="botao botao-bloco">Quero este</a>
+        </article>
+
+        <article class="plano">
+          <h3>Plano Personalizado</h3>
+          <p class="preco preco-sob">Sob consulta</p>
+          <p class="plano-desc">Um site criado do zero para a sua ideia.</p>
+          <ul>
+            <li>Layout exclusivo</li>
+            <li>Páginas ilimitadas</li>
+            <li>Acompanhamento de perto</li>
+            <li>Suporte estendido</li>
+          </ul>
+          <a href="contato.html" class="botao botao-bloco">Pedir proposta</a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape-colunas">
+      <div class="rodape-col">
+        <img class="rodape-logo" src="img/logo.jpg" width="90" height="90" alt="M&amp;A Softwares">
+        <p>Modelos de sites prontos para o seu negócio ir ao ar com rapidez e qualidade.</p>
+      </div>
+
+      <nav class="rodape-col" aria-label="Navegação do rodapé">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="index.html#catalogo">Catálogo</a></li>
+          <li><a href="index.html#planos">Planos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+
+      <div class="rodape-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="mailto:contato@masoftwares.com.br">contato@masoftwares.com.br</a></li>
+          <li><a href="tel:+5511999999999">(11) 99999-9999</a></li>
+          <li>Segunda a sexta, das 9h às 18h</li>
+          <li>Atendimento online em todo o Brasil</li>
+          <li><a href="contato.html">Enviar mensagem</a></li>
+        </ul>
+      </div>
+
+      <div class="rodape-col">
+        <h4>Redes sociais</h4>
+        <ul class="redes">
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="img/instagram.webp" width="32" height="32" alt="">@masoftwares</a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="img/facebook.webp" width="32" height="32" alt="">@masoftwares</a></li>
+          <li><a href="https://www.whatsapp.com/" target="_blank" rel="noopener"><img src="img/whatsapp.webp" width="32" height="32" alt="">(11) 99999-9999</a></li>
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><img src="img/linkedin.webp" width="32" height="32" alt="">in/masoftwares</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="rodape-copy">&copy; 2026 M&amp;A Softwares. Todos os direitos reservados.</p>
+  </footer>
+
+  <a class="whatsapp-flutuante" href="https://wa.me/5511999999999?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20M%26A%20Softwares." target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp"><img src="img/whatsapp.png" alt="WhatsApp"></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
